@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<component name="LibraryTask" extends="Task">
+    <script type="text/brightscript">
+        <![CDATA[
+  sub init()
+    m.top.functionName = "myFunction"
+  end sub
+
+  sub myFunction()
+    ? "This code is still executed"
+  end sub
+
+]]>
+    </script>
+</component>
+
+
